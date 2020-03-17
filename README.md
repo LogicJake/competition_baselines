@@ -6,3 +6,7 @@
 ## aiyanxishe_weibo_baseline
 赛道：微博立场检测  
 赛道链接：https://god.yanxishe.com/44
+
+## tianchi_car_sale
+赛道：零基础入门数据挖掘 - 二手车交易价格预测  
+赛道链接：https://tianchi.aliyun.com/competition/entrance/231784/introduction
