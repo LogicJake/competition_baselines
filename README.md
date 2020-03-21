@@ -10,3 +10,7 @@
 ## tianchi_car_sale
 赛道：零基础入门数据挖掘 - 二手车交易价格预测  
 赛道链接：https://tianchi.aliyun.com/competition/entrance/231784/introduction
+
+## tianchi_elm_delivery
+赛道：智慧物流：新冠期间饿了么骑士行为预估	  
+赛道链接：https://tianchi.aliyun.com/competition/entrance/231777/introduction
