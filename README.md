@@ -14,3 +14,7 @@
 ## tianchi_elm_delivery
 赛道：智慧物流：新冠期间饿了么骑士行为预估	  
 赛道链接：https://tianchi.aliyun.com/competition/entrance/231777/introduction
+
+## aiyanxishe_fraud_job
+赛道：职荐专场--真假职位信息检测
+赛道链接：https://god.yanxishe.com/46
