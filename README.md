@@ -18,3 +18,7 @@
 ## aiyanxishe_fraud_job
 赛道：职荐专场--真假职位信息检测
 赛道链接：https://god.yanxishe.com/46
+
+## aiyanxishe_text_similarity
+赛道：英文文本语义相似度
+赛道链接： https://god.yanxishe.com/53
