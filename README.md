@@ -20,5 +20,5 @@
 赛道链接：https://god.yanxishe.com/46
 
 ## aiyanxishe_text_similarity
-赛道：英文文本语义相似度
+赛道：英文文本语义相似度  
 赛道链接： https://god.yanxishe.com/53
