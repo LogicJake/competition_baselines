@@ -37,17 +37,15 @@ model = ClassificationModel('roberta',
 model.train_model(train, eval_df=test)
 
 # predict
-preds = list()
+text_list = list()
 for i, row in tqdm(test.iterrows()):
-    text_a = row['text_a']
-    text_b = row['text_b']
-    pred, _ = model.predict([[text_a, text_b]])
-    preds.append(pred)
+    text_list.append([row['text_a'], row['text_']])
     
+pred, _ = model.predict(text_list)
 
 sub = pd.DataFrame()
 sub['ID'] = test.index
-sub['score'] = [i.tolist() for i in preds]
+sub['score'] = pred
 
 # 后处理, 发现有超过 5 的情况
 sub.loc[sub.score < 0.08, 'score'] = 0
