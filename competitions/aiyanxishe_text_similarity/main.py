@@ -39,7 +39,7 @@ model.train_model(train, eval_df=test)
 # predict
 text_list = list()
 for i, row in tqdm(test.iterrows()):
-    text_list.append([row['text_a'], row['text_']])
+    text_list.append([row['text_a'], row['text_b']])
     
 pred, _ = model.predict(text_list)
 
