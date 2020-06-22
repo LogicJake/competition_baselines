@@ -23,13 +23,10 @@
 赛道：英文文本语义相似度  
 赛道链接： https://god.yanxishe.com/53
 
-<<<<<<< HEAD
-## dc_fraud_phonecall
-赛道：2020首届数字四川创新大赛算法对抗赛：诈骗电话识别大赛
-赛道链接：http://www.scdata.net.cn/common/cmpt/%E8%AF%88%E9%AA%97%E7%94%B5%E8%AF%9D%E8%AF%86%E5%88%AB_%E6%8E%92%E8%A1%8C%E6%A6%9C.html
-
-=======
 ## aiyanxishe_102_flowers
 赛道：102种鲜花分类  
 赛道链接：https://god.yanxishe.com/54
->>>>>>> 2d7005aac41b4a2e8743786aab698ab0768437ec
+
+## dc_fraud_phonecall
+赛道：2020首届数字四川创新大赛算法对抗赛：诈骗电话识别大赛  
+赛道链接：http://www.scdata.net.cn/common/cmpt/%E8%AF%88%E9%AA%97%E7%94%B5%E8%AF%9D%E8%AF%86%E5%88%AB_%E6%8E%92%E8%A1%8C%E6%A6%9C.html
