@@ -1,6 +1,77 @@
-# 天池-零基础入门NLP-新闻文本分类
+线上单折 0.944，五折估计可以 0.95，完整代码见文末阅读全文。
 
-- pipeline 来自于 https://tianchi.aliyun.com/notebook-ai/detail?postId=118161 (作者 nano-)
-- 模型采用了 transformer_encoder + LSTM (验证了下我们在 2020 腾讯广告算法大赛上用的 transformer 模型在普通 NLP 分类任务中的效果, 见 https://github.com/LogicJake/Tencent_Ads_Algo_2020_TOP12/blob/master/src/keras/f7_AGE_m6_transformer_lstm_2inputs_train_fold.py)
-- 增加了 ReduceLROnPlateau callback
-- 线上单折 0.944，五折估计可以 0.95
+# 比赛链接
+
+https://tianchi.aliyun.com/competition/entrance/531810/information
+
+# 比赛背景
+
+赛题以新闻数据为赛题数据，数据集报名后可见并可下载。赛题数据为新闻文本，并按照字符级别进行匿名处理。整合划分出 14 个候选分类类别：财经、彩票、房产、股票、家居、教育、科技、社会、时尚、时政、体育、星座、游戏、娱乐的文本数据。
+
+赛题数据由以下几个部分构成：训练集 20w 条样本，测试集 A 包括 5w 条样本，测试集 B 包括 5w 条样本。为了预防选手人工标注测试集的情况，我们将比赛数据的文本按照字符级别进行了匿名处理。
+
+赛题数据应该出自中文文本分类数据集 THUCNews，THUCNews 是根据新浪新闻 RSS 订阅频道 2005~2011 年间的历史数据筛选过滤生成，包含 74 万篇新闻文档（2.19 GB），均为 UTF-8 纯文本格式。我们在原始新浪新闻分类体系的基础上，重新整合划分出 14 个候选分类类别：财经、彩票、房产、股票、家居、教育、科技、社会、时尚、时政、体育、星座、游戏、娱乐。
+
+# 思路
+
+我也是 NLP 新手，下面只是我浅浅的理解。比赛虽然是 NLP 入门赛，但由于主办方已经将内容高度匿名化，所以 NLP 常见的预处理手段很难派上用场，比如文本分类用到的去除标点符号无法精准实现，只能通过分析字符出现次数来大致判断谁是标点，所以该比赛主要还是比谁的模型和参数调的好。
+
+最近刚结束的 2020 广告腾讯大赛的内容和这个入门赛高度相似，都是匿名 id 序列分类，只不过腾讯赛的 id 序列较多。我们队伍“最后一次打比赛”获得了该比赛的 12 名，下面我介绍的思路大多可以从我们的开源代码找到：https://github.com/LogicJake/Tencent_Ads_Algo_2020_TOP12
+
+## 词向量
+
+该类型比赛常见的建模方法就是将稀疏 id 转成词向量，然后训练序列分类模型。词向量的使用可以分为两种：用 Word2Vec 预训练得到词向量初始化序列分类模型中的 Embedding 层，然后在模型训练过程中冻结（或不冻结） Embedding 的更新；Embedding 层随机初始化，随着模型的训练而更新。
+
+## 分类模型的选择
+
+分类模型的选择就比较多了，LSTM，transformer，CNN...LSTM 和 CNN 在比赛论坛都有搭建的基本架构，所以本次开源基于 transformer 的 encoder。有了基本架构其他就是调参的事情了。
+
+## 调参思路 or trick
+
+介绍几个从腾讯赛学到的调参思路和 trick。
+
+通用：
+
+- Embedding 维度
+- 序列截取的最大长度的选择
+- 预训练模型 Word2Vec 的参数选择：window，min_count...
+- 序列处理时是否需要筛掉低频 id
+- 优化器 optimizer 的选择，可以尝试一些最新的，比如 ranger
+- 激活函数的选择：mish...
+- 学习率衰减，比如：ReduceLROnPlateau
+- ...
+
+LSTM：
+
+- units 的大小
+- 堆叠多少层 LSTM layer
+- ...
+
+CNN：
+
+- filter_size 除了 3，4，5 还可以更大吗
+- num_filters 大小
+- ...
+
+Transformer：
+
+- 学习率小一点
+- head_num 大小
+- 堆叠层数
+- ...
+
+## 模型融合
+
+腾讯赛中模型融合的收益还是挺大的，这个比赛的融合收益暂时没有尝试。融合讲求差异性，可以从下面几个角度尽可能多构建几个差异大的模型进行融合：
+
+- 框架差异：Pytorch，Tensorflow，Keras 甚至 Paddle
+- 分类模型差异：LSTM，CNN，Transformer
+- 激活函数差异
+- 甚至其他参数的差异
+
+## 参考资料
+
+- [基于文本卷积网络的 Baseline
+  ](https://tianchi.aliyun.com/notebook-ai/detail?postId=118161)
+- [中文文本分类数据集 THUCNews
+  ](http://thuctc.thunlp.org/#%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E6%95%B0%E6%8D%AE%E9%9B%86THUCNews)
