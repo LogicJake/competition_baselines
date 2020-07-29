@@ -34,3 +34,9 @@
 ## dc_yizhifu
 赛道：第二届翼支付杯大数据建模大赛-信用风险用户识别  
 赛道链接：https://www.dcjingsai.com/v2/cmptDetail.html?id=410
+
+## tianchi_news_classification
+赛道：零基础入门NLP - 新闻文本分类
+赛道链接：https://tianchi.aliyun.com/competition/entrance/531810/introduction
+
+
