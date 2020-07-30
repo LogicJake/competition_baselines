@@ -38,3 +38,9 @@
 ## tianchi_news_classification
 赛道：零基础入门NLP - 新闻文本分类  
 赛道链接：https://tianchi.aliyun.com/competition/entrance/531810/introduction
+
+## iflytek_agriculture_ner
+
+赛道：讯飞开放平台-农业问答数据处理挑战赛
+
+赛道链接：http://challenge.xfyun.cn/topic/info?type=agriculture
