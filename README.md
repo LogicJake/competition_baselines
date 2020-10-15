@@ -40,11 +40,11 @@
 赛道链接：https://tianchi.aliyun.com/competition/entrance/531810/introduction
 
 ## iflytek_agriculture_ner
-赛道：讯飞开放平台 - 农业问答数据处理挑战赛
+赛道：讯飞开放平台 - 农业问答数据处理挑战赛  
 赛道链接：http://challenge.xfyun.cn/topic/info?type=agriculture
 
 ## kesci_public_health_answers_classification
-赛道：和鲸社区 - 医学数据挖掘算法评测大赛 | 任务1：公众健康问句分类
+赛道：和鲸社区 - 医学数据挖掘算法评测大赛 | 任务1：公众健康问句分类  
 赛道链接：https://www.kesci.com/home/competition/5f2d0ea1b4ac2e002c164d82
 
 ## severless_load_prediction
