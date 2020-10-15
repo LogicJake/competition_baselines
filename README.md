@@ -47,4 +47,6 @@
 赛道：和鲸社区 - 医学数据挖掘算法评测大赛 | 任务1：公众健康问句分类
 赛道链接：https://www.kesci.com/home/competition/5f2d0ea1b4ac2e002c164d82
 
-
+## severless_load_prediction
+赛道：CCF 2020 - 大数据时代的Serverless工作负载预测
+赛道链接：https://www.datafountain.cn/competitions/468
