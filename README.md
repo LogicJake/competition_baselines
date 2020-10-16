@@ -52,6 +52,6 @@
 赛道链接：https://www.datafountain.cn/competitions/468
 
 ## property_chat_pair
-赛道：CCF 2020 - 房产行业聊天问答匹配
+赛道：CCF 2020 - 房产行业聊天问答匹配  
 赛道链接：https://www.datafountain.cn/competitions/474
 
