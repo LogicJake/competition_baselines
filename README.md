@@ -56,6 +56,6 @@
 赛道链接：https://www.datafountain.cn/competitions/474
 
 ## fund_raising_risk_prediction
-赛道：CCF 2020 - 企业非法集资风险预测
+赛道：CCF 2020 - 企业非法集资风险预测  
 赛道链接：https://www.datafountain.cn/competitions/469
 
