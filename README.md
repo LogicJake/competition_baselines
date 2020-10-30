@@ -59,3 +59,6 @@
 赛道：CCF 2020 - 企业非法集资风险预测  
 赛道链接：https://www.datafountain.cn/competitions/469
 
+## xiamen_international_bank_2020
+赛道：DC 2020厦门国际银行数创金融杯建模大赛
+赛道链接：https://www.dcjingsai.com/v2/cmptDetail.html?id=439
