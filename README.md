@@ -64,5 +64,10 @@
 赛道链接：https://www.dcjingsai.com/v2/cmptDetail.html?id=439
 
 ## dc_onecity
-赛道 DC 中移集成（雄安产业研究院）首届OneCity编程大赛
+赛道：DC 中移集成（雄安产业研究院）首届OneCity编程大赛
 赛道链接：https://www.dcjingsai.com/v2/cmptDetail.html?id=457
+
+## biendata_bmes
+赛道：智源-水利知识图谱构建挑战赛
+赛道链接：http://competition.baai.ac.cn/c/37/format/introduce
+
