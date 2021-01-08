@@ -86,9 +86,9 @@ LABEL: [白洋淀-LAK, 瓦埠湖-LAK]
 
 ## 模型训练
 
-采用 chinese-roberta-wwm-ext，5 epochs，训练集验证集四比一划分，20 分钟内可以训练完
+采用 chinese-roberta-wwm-ext，8 epochs，训练集验证集九比一划分，25 分钟内可以训练完
 
-单折线下 f1: 0.8128，线上 0.7667
+单折线下 f1: 0.8161，线上 0.7948
 
 ## TODO
 
