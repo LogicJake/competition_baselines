@@ -80,7 +80,7 @@ https://github.com/huggingface/transformers/tree/master/examples/multiple-choice
 2. run_swag.py 没有 do_predict 部分，需要修改添加；
 3. 参数需要微调 (特别是显存吃紧的情况下，记得添加 gradient_accumulation_steps 参数)
 
-本 Baseline 提供了修改好的 run_swag.py，将 haihua 数据集放在 raw_data 目录内，然后直接运行 run_swag.ipynb 即可完成训练并生成 submission 文件。
+本 Baseline 提供了修改好的 run_swag.py，将 haihua 数据集放在 raw_data 目录内，然后直接运行 run_swag.ipynb (请自行修改 output_dir) 即可完成训练并生成 submission 文件。
 
 - 预训练模型：hfl/chinese-roberta-wwm-ext, lr=2e-5, 5 epochs
 - 运行环境：ubuntu-1804，2080Ti，5 epochs 训练集:验证集 = 13000:2425 划分，大概两个半小时完成。
