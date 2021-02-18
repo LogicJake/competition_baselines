@@ -71,3 +71,6 @@
 赛道：智源-水利知识图谱构建挑战赛  
 赛道链接：http://competition.baai.ac.cn/c/37/format/introduce
 
+## haihua2021
+赛道：2021海华AI挑战赛·中文阅读理解·技术组
+赛道链接：https://www.biendata.xyz/competition/haihua_2021/
