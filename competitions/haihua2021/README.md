@@ -82,6 +82,8 @@ https://github.com/huggingface/transformers/tree/master/examples/multiple-choice
 
 本 Baseline 提供了修改好的 run_swag.py，将 haihua 数据集放在 raw_data 目录内，然后直接运行 run_swag.ipynb (请自行修改 output_dir) 即可完成训练并生成 submission 文件。
 
+**PS: 非 Linux 环境下可能这个拷贝命令会失败 cp run_swag.py ./transformers/examples/multiple-choice/run_swag.py，如果遇到提示 --test_file 参数不可用，请手动拷贝 run_swag.py 文件到 ./transformers/examples/multiple-choice/ 替换掉原来的 run_swag.py 即可**
+
 - 预训练模型：hfl/chinese-roberta-wwm-ext, lr=2e-5, 5 epochs
 - 运行环境：ubuntu-1804，2080Ti，5 epochs 训练集:验证集 = 13000:2425 划分，大概两个半小时完成。
 - 线上分数：41.9394435351882
