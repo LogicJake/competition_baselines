@@ -88,6 +88,6 @@ https://github.com/huggingface/transformers/tree/master/examples/multiple-choice
 - 运行环境：ubuntu-1804，2080Ti，5 epochs 训练集:验证集 = 13000:2425 划分，大概两个半小时完成。
 - 线上分数：41.9394435351882
 
-## TODO：
+## TODO
 
-从 eval 结果来看过拟合有点严重
+~~从 eval 结果来看过拟合有点严重~~ (更正: 之前代码在划分训练集和验证集中有 BUG，修正后，线下 43.4，线上 41.9)
