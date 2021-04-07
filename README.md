@@ -74,3 +74,8 @@
 ## haihua2021
 赛道：2021海华AI挑战赛·中文阅读理解·技术组
 赛道链接：https://www.biendata.xyz/competition/haihua_2021/
+
+## kesci_datajoy_airbnb
+赛道：kesci datajoy 预测分析·民宿价格预测
+赛道链接：https://www.heywhale.com/home/competition/605c426d21e3f6003b56a920/content
+
