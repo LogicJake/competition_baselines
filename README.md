@@ -79,3 +79,6 @@
 赛道：kesci datajoy 预测分析·民宿价格预测  
 赛道链接：https://www.heywhale.com/home/competition/605c426d21e3f6003b56a920/content
 
+## sodic_job_match
+赛道：人岗精准匹配模型  
+赛道链接：https://www.sodic.com.cn/competitions/900008
