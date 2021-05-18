@@ -82,3 +82,8 @@
 ## sodic_job_match
 赛道：人岗精准匹配模型  
 赛道链接：https://www.sodic.com.cn/competitions/900008
+
+## sodic_enterprise_hidden_dangers
+赛道：基于文本挖掘的企业隐患排查质量分析模型
+赛道链接：https://www.sodic.com.cn/competitions/900010
+
