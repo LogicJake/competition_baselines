@@ -84,9 +84,9 @@
 赛道链接：https://www.sodic.com.cn/competitions/900008
 
 ## sodic_enterprise_hidden_dangers
-赛道：基于文本挖掘的企业隐患排查质量分析模型
+赛道：基于文本挖掘的企业隐患排查质量分析模型  
 赛道链接：https://www.sodic.com.cn/competitions/900010
 
 ## 2021CCF-aqy
-赛道：剧本角色情感识别
+赛道：剧本角色情感识别  
 赛道链接：https://www.datafountain.cn/competitions/518
