@@ -90,3 +90,7 @@
 ## 2021CCF-aqy
 赛道：剧本角色情感识别  
 赛道链接：https://www.datafountain.cn/competitions/518
+
+## 2021CCF-loan
+赛道：个贷违约预测
+赛道链接：https://www.datafountain.cn/competitions/530
