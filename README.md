@@ -95,7 +95,11 @@
 赛道：个贷违约预测  
 赛道链接：https://www.datafountain.cn/competitions/530
 
-
 ## 2021CCF-ueba
 赛道：基于UEBA的用户上网异常行为分析    
 赛道链接：https://www.datafountain.cn/competitions/520
+
+## 2021CCF-ner
+赛道：产品评论观点提取
+赛道链接：https://www.datafountain.cn/competitions/529
+
