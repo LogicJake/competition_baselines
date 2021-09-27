@@ -28,7 +28,7 @@
 尝试通过「对抗验证」从 internet 表中找出部分较为符合 public 表分布的数据，步骤如下：
 
 - public 的 target 设置为 1
-- internet 的 target 设置为 2
+- internet 的 target 设置为 0
 - 合并两个表
 - 训练模型分辨两个表的数据
 - 将训练好的模型预测概率较高的 internet 数据挑选出来
