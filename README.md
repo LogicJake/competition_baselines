@@ -103,3 +103,7 @@
 赛道：产品评论观点提取
 赛道链接：https://www.datafountain.cn/competitions/529
 
+## 2021CCF-SysRisk
+赛道：系统认证风险预测
+赛道链接：https://www.datafountain.cn/competitions/537
+
