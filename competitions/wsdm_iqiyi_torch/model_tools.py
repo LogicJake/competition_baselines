@@ -44,7 +44,7 @@ def fit(model, train_loader, optimizer, criterion, device):
 
     for user_id, launch_seq, label in tqdm(train_loader):
         user_id = user_id.long().to(device)
-        launch_seq = launch_seq.float().to(device)
+        launch_seq = launch_seq.long().to(device)
         label = torch.tensor(label).float().to(device)
 
         pred = model(user_id, launch_seq)
@@ -70,7 +70,7 @@ def validate(model, val_loader, device):
 
     for user_id, launch_seq, label in tqdm(val_loader):
         user_id = user_id.long().to(device)
-        launch_seq = launch_seq.float().to(device)
+        launch_seq = launch_seq.long().to(device)
         label = torch.tensor(label).float().to(device)
 
         pred = model(user_id, launch_seq)
@@ -88,7 +88,7 @@ def predict(model, test_loader, device):
     test_pred = []
     for user_id, launch_seq, _ in tqdm(test_loader):
         user_id = user_id.long().to(device)
-        launch_seq = launch_seq.float().to(device)
+        launch_seq = launch_seq.long().to(device)
 
         pred = model(user_id, launch_seq).squeeze()
         test_pred.extend(pred.cpu().detach().numpy())
