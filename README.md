@@ -104,13 +104,17 @@
 赛道链接：https://www.datafountain.cn/competitions/529
 
 ## 2021CCF-SysRisk
-赛道：系统认证风险预测
+赛道：系统认证风险预测  
 赛道链接：https://www.datafountain.cn/competitions/537
 
 ## wsdm_iqiyi
-赛道：爱奇艺用户留存预测挑战赛
+赛道：爱奇艺用户留存预测挑战赛  
 赛道链接：http://challenge.ai.iqiyi.com/detail?raceId=61600f6cef1b65639cd5eaa6
 
 ## 2021shandong-dianwang
-赛道：山东大数据-电网母线负荷预测
+赛道：山东大数据-电网母线负荷预测  
 赛道链接：http://data.sd.gov.cn/cmpt/cmptDetail.html?id=55
+
+## 2021shandong-dongying
+赛道：山东大数据-网格事件智能分类  
+赛道链接：http://data.sd.gov.cn/cmpt/cmptDetail.html?id=67
