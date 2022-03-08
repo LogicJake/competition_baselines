@@ -118,3 +118,8 @@
 ## 2021shandong-dongying
 赛道：山东大数据-网格事件智能分类  
 赛道链接：http://data.sd.gov.cn/cmpt/cmptDetail.html?id=67
+
+## tianchi_aiops2022
+赛道：第三届阿里云磐久智维算法大赛
+赛道链接：https://tianchi.aliyun.com/competition/entrance/531947/introduction
+
