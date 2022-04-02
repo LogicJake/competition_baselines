@@ -123,3 +123,8 @@
 赛道：第三届阿里云磐久智维算法大赛
 赛道链接：https://tianchi.aliyun.com/competition/entrance/531947/introduction
 
+
+## sohu2022_nlp_rec
+赛道：2022搜狐校园 情感分析 × 推荐排序 算法大赛
+赛道链接：https://www.biendata.xyz/competition/sohu_2022/
+
