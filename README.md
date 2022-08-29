@@ -128,3 +128,7 @@
 赛道：2022搜狐校园 情感分析 × 推荐排序 算法大赛
 赛道链接：https://www.biendata.xyz/competition/sohu_2022/
 
+## 2022ccf_web_attack_detect
+赛道：2022 CCF Web攻击检测与分类识别
+赛道链接：https://www.datafountain.cn/competitions/596
+
