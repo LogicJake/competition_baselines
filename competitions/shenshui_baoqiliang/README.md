@@ -19,5 +19,17 @@
 5. 分别跑五折 LGBM 模型；
 6. 合并结果提交。
 
-线下 0.27 线上 0.43，线上下 gap 比较大
+~~线下 0.27~~ 线上 0.43，线上下 gap 比较大
 
+EDIT: notebook 里的线下评测函数写错了，应该改为
+
+```
+def calc_score(df1, df2):
+    df1['loss1'] = (df1['Label1'] - df1['pred'])**2
+    df2['loss2'] = (df2['Label2'] - df2['pred'])**2
+    loss1 = (df1['loss1'].sum()/len(df1))**0.5
+    loss2 = (df2['loss2'].sum()/len(df2))**0.5
+    loss = (loss1 + loss2) / 2
+    score = (1 / (1 + loss)) * 1000
+    return score
+```
